@@ -11,8 +11,8 @@ long distance;
 //Here we are setting it to the equivalent to 1m (dont care if its more than a meter and we dont want to wait longer): 
 //Speed of sounds = 340.29 per seconds ( or 1 000 000 ms)
 // 1000 000 / 340.29 * 2 (times to go and come back) 
-// => ~5877.3399 
-long timeout = 5877.3399;  
+// => ~5877.3399 => ~6000 mu = 6ms = 0.6s
+long int timeout = 6000;  
 
 void setup() {
   // initialize serial communication:
